@@ -11,11 +11,11 @@ We use Yahoo! stock news from 2020-2023 to predict the rise and fall of prices o
   3. preprocess the news (filter keywords, remove news that is too short...)
   4. add labels to each record, and divide the data into training set and testing set
   5. pick features, train and test
-    - method 1
-      - tokenize with monpa
-      - pick features for the group of news with df-chi2
-      - train and test with Naive Bayes, kNN, Decision Tree, Random Forest, SVM...
-    - method 2
-      - tokenize with jieba
-      - pick features for each news with tf
-      - put the feature set into nltk models (Naive Bayes, SVM, Decision Tree)
+      - method 1
+        - tokenize with monpa
+        - pick features for the group of news with df-chi2
+        - train and test with Naive Bayes, kNN, Decision Tree, Random Forest, SVM...
+      - method 2
+        - tokenize with jieba
+        - pick features for each news with tf
+        - put the feature set into nltk models (Naive Bayes, SVM, Decision Tree)
