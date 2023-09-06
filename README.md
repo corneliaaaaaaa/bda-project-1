@@ -20,6 +20,6 @@ We use Yahoo! stock news from 2020-2023 to predict the rise and fall of prices o
         - pick features for each news with tf
         - put the feature set into nltk models (Naive Bayes, SVM, Decision Tree)
 
-### What I have done
+#### What I have done
 - r1_part1.ipynb
 - r1_part2_and_r2.ipynb, except the method 1 part in step 5
